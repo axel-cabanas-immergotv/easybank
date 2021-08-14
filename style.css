@@ -1,0 +1,266 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.full-conteiner {
+    width: 1440px;
+    margin: 0px auto;
+}
+
+.conteiner {
+    width: 1112px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 17px 0 20px 0; 
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 140px;
+    height: 20px;
+}
+
+
+.header__menu a {
+    padding: 0 15px;
+    color: #98979C;
+    text-decoration: none;
+}
+
+.header__menu a:hover {
+    color: #3F3F47;
+}
+.btn__request {
+    background: linear-gradient(90deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero {
+    
+    background-color: #FAFAFA;
+    display: flex;
+    padding-top: 180px;
+    padding-bottom: 170px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.titulo {
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.parrafo {
+    color: #9E9DA2;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero__info {
+    padding-left: 165px;
+    width: 450px;
+}
+
+.hero__bg-mockups {
+    position: absolute;
+    top: -122px;
+    right: -140px;
+    z-index: 2;
+}
+
+.hero__bg-intro {
+    position: absolute;
+    top: -270px;
+    right: -500px;
+}
+
+.subtitulo {
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.servicio__parrafo {
+    width: 660px;
+    margin-bottom: 0;
+}
+
+.servicio__card-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.servicio {
+    background-color: #F4F5F7;
+    padding: 110px 0;
+}
+ 
+.servicio__card {
+    margin: 0 15px;
+    width: 25%;
+}
+
+.servicio__card:first-child {
+    margin-left: 0;
+}
+
+.servicio__card:last-child {
+    margin-right: 0;
+}
+
+
+.servicio__card-titulo {
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.servicio__card-parrafo {
+    font-size: 16px;
+}
+
+.articles {
+    padding: 98px 0;
+}
+
+.articles__card-contenedor {
+    display: flex;
+    background-color: #FAFAFA;  
+} 
+
+.articles__card {
+    padding: 0 15px;
+    width: 25%;
+}
+
+.articles__card:first-child{
+    padding-left: 0;
+}
+
+.articles__card:last-child {
+    padding-right: 0;    
+}
+
+.articles__titulo {
+    color: hsl(233, 26%, 24%);
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0 0 58px;
+}
+
+.articles__card-autor {
+    color: #A9A8AD;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.articles__card-titulo {
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.articles__card-parrafo {
+    color: #A9A8AD;
+    margin: 0;
+    font-size: 14px;
+    width: 230px;
+}
+
+.articles__card-img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.articles__card-caja {
+    padding: 32px 24px;
+}
+
+.footer {
+    background-color: #2D314E;
+    padding: 45px 0;
+}
+
+.footer__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__card-menu {
+    display: flex;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu:first-child {
+    margin-right: 125px;
+}
+
+.footer__card-menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer__card-menu a:last-child {
+    margin-bottom: 0;
+}
+
+.footer-copy {
+    color: #8182A0;
+    margin: 30px 0 0 0;
+    font-size: 15px;
+}
+
+.footer__card-boton {
+    text-align: end;
+}
+
+.footer__logo {
+    margin-bottom: 50px;
+}
+
+.footer__redes a {
+    margin: 0 6px;
+}
+
+.footer__redes a:first-child {
+    margin-left: 0;
+}
+
+.footer__redes a:last-child {
+    margin-right: 0;
+}
